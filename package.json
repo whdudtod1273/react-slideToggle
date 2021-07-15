@@ -1,9 +1,12 @@
 {
-  "name": "react-slide-toggle",
-  "version": "1.0.0",
+  "name": "@todys/react-slide-toggle",
+  "version": "1.0.1",
   "main": "./dist/SlideToggle.js",
   "module": "./dist/SlideToggle.js",
-  "private": true,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "In react, display the matched elements in the sliding action. A component that works like jQuery slidedown, slideUp method in react.",
   "homepage": "https://github.com/whdudtod1273/react-slideToggle.git",
   "bugs": {
@@ -12,6 +15,8 @@
   },
   "keywords": [
     "react",
+    "slide",
+    "collapsible",
     "slideDown",
     "slideUp",
     "slideToggle",
@@ -22,7 +27,7 @@
   ],
   "author": "jo young saeng <super6915@gmail.com> (https://github.com/whdudtod1273)",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",

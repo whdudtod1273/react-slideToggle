@@ -1,4 +1,4 @@
-export { default as SlideToggle } from './lib/SlideToggle.js'
+export { default as SlideToggle } from './lib/SlideToggle'
 
 // import React from 'react';
 // import ReactDOM from 'react-dom';

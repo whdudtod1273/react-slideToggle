@@ -5,15 +5,15 @@ In react, display the matched elements in the sliding action.
 ## Installation
 
 ```
-npm i @todys/react-slideToggle
+npm i @todys/react-slide-toggle
 or
-yarn add @todys/react-slideToggle
+yarn add @todys/react-slide-toggle
 ```
 
 ## Usage
 
 ```javascript
-import { Pagination } from '@todys/react-pagination'
+import { SlideToggle } from '@todys/react-slide-toggle'
 
 const [toggleState, setToggleState] = useState(false);
 const clickEvent = () => {

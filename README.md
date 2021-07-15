@@ -34,6 +34,8 @@ ReactDOM.render(
   </div>
 )
 ```
+example code link
+<https://github.com/whdudtod1273/react-slideToggle/blob/main/src/example/index.js>
 
 ## Props
 

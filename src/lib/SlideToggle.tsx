@@ -1,10 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './SlideToggle.css'
 
-const SlideToggle = ({ children, state = false, duration = 0.5 }) => {
-  const [contentDefault, setContentDefault] = useState();
-  const [contentH, setContentH] = useState(0);
-  const contentRef = useRef(null);
+type Props = {
+  state:Boolean,
+  duration:number
+}
+
+const SlideToggle:React.FC<Props> = ({ children, state = false, duration = 0.5 }) => {
+  const [contentDefault, setContentDefault] = useState<any>();
+  const [contentH, setContentH] = useState<any>(0);
+  const contentRef = useRef<any>(null);
 
   useEffect(() => {
     const { current } = contentRef;
@@ -23,7 +28,7 @@ const SlideToggle = ({ children, state = false, duration = 0.5 }) => {
         </div>
       </div>
 
-      <style jsx>
+      <style jsx="true" >
         {`
           .rst-container{
             height: 0;

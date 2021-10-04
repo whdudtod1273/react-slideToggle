@@ -1,8 +1,9 @@
 {
   "name": "@todys/react-slide-toggle",
-  "version": "1.0.1",
-  "main": "./dist/SlideToggle.js",
-  "module": "./dist/SlideToggle.js",
+  "version": "2.0.7",
+  "main": "./dist/SlideToggle.tsx",
+  "module": "./dist/SlideToggle.tsx",
+  "types": "./dist/index.d.ts",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -23,7 +24,8 @@
     "react-slide",
     "react-slideToggle",
     "react-slideUp",
-    "react-slideDown"
+    "react-slideDown",
+    "typescript"
   ],
   "author": "jo young saeng <super6915@gmail.com> (https://github.com/whdudtod1273)",
   "license": "MIT",
@@ -39,10 +41,15 @@
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
+    "@types/react": "^17.0.27",
+    "@types/react-dom": "^17.0.9",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-react-app": "^10.0.0",
     "rollup": "^2.53.0",
     "rollup-plugin-css-only": "^3.1.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4"
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.3"
   },
   "scripts": {
     "start": "react-scripts start",

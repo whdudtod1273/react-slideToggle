@@ -6,6 +6,8 @@ src
 demo
 .babelrc
 webpack.config.js
+rollup.config.js
+tsconfig.json
 public
 .gitignore
 
